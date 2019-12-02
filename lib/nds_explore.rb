@@ -16,5 +16,5 @@ def print_first_directors_movie_titles
     titles_string += directors_database[0][:movies][movie_num][:title] + '\n'
     movie_num += 1
   end
-  print titles_string
+  p titles_string
 end
