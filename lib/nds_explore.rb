@@ -16,5 +16,5 @@ def print_first_directors_movie_titles
     titles_array.push(directors_database[0][:movies][movie_num][:title])
     movie_num += 1
   end
-  p titles_array
+  print titles_array
 end
