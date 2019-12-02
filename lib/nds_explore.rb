@@ -13,6 +13,6 @@ def print_first_directors_movie_titles
   movie_num = 0
   while movie_num < directors_database[0][:movies].length do
     p directors_database[0][:movies][movie_num][:title]
-    movie_num ++
+    movie_num += 1
   end
 end
