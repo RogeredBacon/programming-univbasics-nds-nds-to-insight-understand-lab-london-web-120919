@@ -11,7 +11,7 @@ end
 
 def print_first_directors_movie_titles
   movie_num = 0
-  titles_array = []
+  titles_string = ''
   while movie_num < directors_database[0][:movies].length do
     titles_array.push(directors_database[0][:movies][movie_num][:title])
     movie_num += 1
