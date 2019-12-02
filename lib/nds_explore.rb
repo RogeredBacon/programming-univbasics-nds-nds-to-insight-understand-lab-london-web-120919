@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
   movie_num = 0
   titles_string = ''
   while movie_num < directors_database[0][:movies].length do
-    titles_string.push(directors_database[0][:movies][movie_num][:title] + '\n')
+    titles_string += directors_database[0][:movies][movie_num][:title] + '\n'
     movie_num += 1
   end
   print titles_string
